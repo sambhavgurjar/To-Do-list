@@ -40,6 +40,8 @@ function handleAddTaskBtn() {
     oldTask.append(taskHeading);
     oldTask.append(editBtn);
     oldTask.append(deleteBtn);
+
+    taskInput.value='';
   }
 }
 
