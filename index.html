@@ -4,30 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO-DO-LIST</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <title>profile log-in</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
-    <h3><i class="fa-solid fa-circle-user" style="color: #ffffff;"></i>
-        <p id="username">username</p>
-    </h3>
-    <h1> TO DO LIST</h1>
+    <main>
+        <section id="section1">
+            <h2>USER LOG-IN</h2>
+            <form action="./todo.html" id="form" target="_blank">
+                <div class="userinput">
+                    <label for="username">username</label>
+                    <div class="input">
+                        <input type="text" name="username" id="username" placeholder="enter your name" required>
+                        <p id="nameError" class="error"></p>
+                    </div>
+                </div>
+                <div class="userinput">
+                    <label for="email">email</label>
+                    <div class="input">
+                        <input type="email" name="email" id="email" placeholder="enter email" required>
+                        <p id="emailError" class="error"></p>
+                    </div>
 
-    <div id="add-task">
-        <input type="text" id="task-input" placeholder="enter new task">
-        <button id="add-task-btn" class="head-btn">ADD NEW TASK</button>
-    </div>
+                </div>
+                <div class="userinput">
+                    <label for="password">password</label>
+                    <div class="input">
+                        <input type="password" name="password" id="password" placeholder="enter password" required>
+                        <p id="emailError" class="error"></p>
+                    </div>
 
-    <div id="task-list">
+                </div>
+                <div class="userinput">
+                    <label for="gender">gender</label>
+                    <select name="gender" id="gender" required>
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        <option value="other">other</option>
+                    </select>
+                </div>
 
+                <button type="submit" id="submitBtn">log-in</button>
 
-
-    </div>
-    <script src="script.js"></script>
+            </form>
+        </section>
+    </main>
+    <script src="login.js"></script>
 </body>
 
 </html>

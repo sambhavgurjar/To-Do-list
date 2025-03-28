@@ -62,9 +62,8 @@ function handleAddTaskBtn() {
     oldTask.append(editBtn);
     oldTask.append(deleteBtn);
 
-    //set input box empty
+    taskInput.value='';
 
-    taskInput.value = null;
   }
 }
 // console.log(new Date().get.toString());
