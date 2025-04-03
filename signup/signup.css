@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+    height: 10vh;
+}
+
+main {
+     
+      height: 90vh;
+    background-color: rgb(68, 132, 151);
+ 
+    padding: 20px;
+
+}
+form{
+   
+    background-color: rgb(68, 150, 175);
+
+    width: 500px;
+    box-shadow: 1px 1px 5px 3px rgb(177, 171, 171);
+    border-radius: 2px;
+    padding: 5vw 5vw;
+   
+
+ 
+}
+
+label{
+    font-weight: 500;
+}
+
+
+
+.input > input {
+
+ 
+  outline: none;
+  border: 2px solid beige;
+}
+.input > input:focus {
+  border: 2px solid black;
+}
+.input > .error {
+  height: 14px;
+  width: 100%;
+  /* background-color: blue; */
+}
+
+#login{
+    text-decoration: none;
+    color: blue;
+    opacity: 0.6;
+    white-space: nowrap;
+    
+}
+
+#login:hover{
+    opacity: 1;
+}
+
+
+
