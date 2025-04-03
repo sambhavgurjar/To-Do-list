@@ -21,7 +21,7 @@ form{
     background-color: rgb(68, 150, 175);
 
     width: 500px;
-    /* box-shadow: 1px 1px 5px 3px rgb(177, 171, 171); */
+    box-shadow: 1px 1px 10px 5px rgb(124, 110, 110);
     border-radius: 2px;
     padding: 5vw 5vw;
    
