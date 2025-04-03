@@ -36,7 +36,7 @@ loginBtn.addEventListener("click", (evt) => {
       window.location.href = `../todoList/todo.html?username=${username}`;
     }
   } else {
-    alert("please sign-up...");
+    alert("username not exist,please sign-up...");
   }
 
   console.log("hello");
